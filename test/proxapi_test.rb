@@ -14,7 +14,7 @@ class ProxApiTest < Test::Unit::TestCase
   end
 
   def app
-    Sinatra::Application
+    ProxApi
   end
 
   context "POST /vms" do
