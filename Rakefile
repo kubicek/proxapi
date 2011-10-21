@@ -1,3 +1,6 @@
+require 'bundler'
+Bundler::GemHelper.install_tasks
+
 desc 'Runs the tests after each change'
 task 'autotest' do
   system "/usr/bin/kicker --no-growl -e 'ruby test/proxapi_test.rb' ."
