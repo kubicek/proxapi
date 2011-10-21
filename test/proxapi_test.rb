@@ -14,7 +14,7 @@ class ProxApiTest < Test::Unit::TestCase
   end
 
   def app
-    ProxApi
+    ProxApi::Server
   end
 
   context "POST /vms" do

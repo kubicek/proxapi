@@ -4,7 +4,7 @@ require "proxapi/version"
 
 Gem::Specification.new do |s|
   s.name        = "proxapi"
-  s.version     = Proxapi::VERSION
+  s.version     = ProxApi::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Joakim Kolsjö"]
   s.email       = ["joakim.kolsjo@gmail.com"]
