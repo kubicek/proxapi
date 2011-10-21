@@ -1,8 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 
-set :port, 3399
-
 class Proxmox
   def self.run(cmd)
     `#{cmd}`
